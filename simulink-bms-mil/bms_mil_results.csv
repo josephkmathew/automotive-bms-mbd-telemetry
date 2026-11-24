@@ -1,0 +1,5 @@
+TestCase,MinFault,MaxFault,StartSoC,EndSoC,Passed
+UnderVoltage_Entry,0,2,0,50,1
+Normal_Window,0,2,0,50,1
+OverVoltage_Entry,0,2,0,50,1
+ZeroCurrent_Check,0,2,0,50,1
