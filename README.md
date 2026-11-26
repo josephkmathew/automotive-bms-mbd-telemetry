@@ -26,3 +26,11 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r ../requirements.txt
 python analyze_bms_telemetry.py
 
+
+## Model Architecture & Stateflow Logic
+
+### Top-Level BMS Protection & SoC Model
+![BMS Protection and SoC Top-Level Model](simulink-bms-mil/bms_top_level.png)
+
+### Stateflow Fault-Protection State Machine
+![BMS Stateflow Protection Chart](simulink-bms-mil/bms_stateflow_chart.png)
